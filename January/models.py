@@ -13,4 +13,18 @@ class Bod(models.Model):
 
     def __str__(self):
         return self.username
+class Style(models.Model):
+    username = models.CharField(max_length=100)
+    photo_url = models.TextField()
+
+    def __str__(self):
+        return self.username
+class Decor(models.Model):
+    username = models.CharField(max_length=100)
+    photo_url = models.TextField()
+
+    def __str__(self):
+        return self.username
+
+        
 
