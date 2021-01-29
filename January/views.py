@@ -1,5 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Food, Bod, Style, Decor
+from .forms import FoodForm
 # Create your views here.
 
 def food_list(request):
